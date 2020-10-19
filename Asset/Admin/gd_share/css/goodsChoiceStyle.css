@@ -1,0 +1,81 @@
+.goodsChoice_outlineTable { height: 530px; width: 1200px; }
+.goodsChoice_outlineTable .goodsChoice_registeredTdArea { height: 530px; width: 560px;}
+.goodsChoice_outlineTable .goodsChoice_registeredTdArea #goodsChoice_registerdOutlineDiv { height: 495px; width: 560px; overflow-y: scroll; overflow-x: hidden;    border-bottom: 1px solid #d6d6d6; }
+.goodsChoice_outlineTable .goodsChoice_outlineTd{border: 1px solid #d6d6d6;padding: 0px;margin: 0px;}
+.goodsChoice_outlineTable .goodsChoice_outlineTdCenter{ background: #fff; }
+.goodsChoice_outlineTable .goodsChoice_outlineTd select {
+	margin:3px 0;
+}
+.goodsChoice_outlineTable .goodsChoice_outlineSort{ background-color: #f9f9f9; padding: 10px;}
+.goodsChoice_outlineTable .goodChoice_buttonArea table {text-align: center;/* height: 60px; */background:#f6f6f6;}
+.goodsChoice_outlineTable .goodsChoice_addDelButtonArea { text-align: center; height: 300px; width: 100%; }
+.goodsChoice_outlineTable .goodsChoice_addDelButtonArea img { border: 0px; cursor: pointer; }
+.goodsChoice_arrow { float: left; cursor: pointer; }
+.goodsChoice_sortText { border:1px solid #cccccc; width: 30px; }
+.goodsChoice_title {
+	margin:0px 0px 0px 3px;
+	padding:20px 5px 20px 0;
+	font-weight:bold;
+	font-size:18px;
+	letter-spacing:-1px;
+	color: #222;
+}
+.goodsChoice_title_sub{
+	font-size:11px;
+}
+.goodsChoice_titleArrow { font-size: 12px; margin-right: 7px; }
+.moveGoodsIdx .moveGoodsIdxInt { font-weight: bold; color: blue; }
+.goodsChoice_moveBtn { cursor: pointer; margin-top: 3px; }
+.goodsChoice_cate_moveBtn { cursor: pointer; margin-top: 3px; }
+.goodsChoice_fixBtn { cursor: pointer; margin-top: 3px; }
+table.goodChoice_registaredTable { width:100%; border-collapse: collapse; table-layout:fixed; color:#303030; }
+table.goodChoice_registaredTable th { padding:5px 0; background: url('../img/table_title_bg.gif') center center repeat-x; background-size:auto 100%; line-height:100%; vertical-align:middle; _height:26px; color:#fff; padding:8px 0; font-weight:bold;}
+table.goodChoice_registaredTable td { vertical-align:middle; border-bottom:1px solid #ccc; font-weight:normal; text-align: center; padding: 5px; word-break:break-all; }
+table.goodChoice_registaredTable .goodsName { text-align: left; }
+.registeredGoodsCountInfo { font-weight: bold; }
+.registeredGoodsCountMsgArea { position: absolute; right: 0px; margin-right: 3px; }
+#tbl_add_goods td img, .add_goods_free td img {	height: 25px;}
+
+#tbl_add_goods .add_goods_free { word-break: break-all; }
+#tbl_add_goods td img, .add_goods_free td div img { height:auto	}
+#tbl_add_goods .add_goods_free td, #tbl_add_goods_result .add_goods_free td{padding-top: 15px; padding-bottom: 15px}
+.goodsChoice_outlineSort .action-title {
+	display:inline-block;
+	background: url(../img/check.png) no-repeat left 4px;
+	padding-left: 17px;
+	margin-right: 7px;
+}
+#goodsRegisteredTrArea > th:nth-child(1),
+.goodsChoice_registeredTdArea .table-rows > tbody > tr > td:nth-child(1) {
+	width: 40px;
+}
+#goodsRegisteredTrArea > th:nth-child(2),
+.goodsChoice_registeredTdArea .table-rows > tbody > tr > td:nth-child(2) {
+	width: 49px;
+}
+#goodsRegisteredTrArea > th:nth-child(3),
+.goodsChoice_registeredTdArea .table-rows > tbody > tr > td:nth-child(3) {
+	width: 50px;
+}
+#goodsRegisteredTrArea > th:nth-child(4),
+.goodsChoice_registeredTdArea .table-rows > tbody > tr > td:nth-child(4) {
+	width: 125px;
+}
+#goodsRegisteredTrArea > th:nth-child(5),
+.goodsChoice_registeredTdArea .table-rows > tbody > tr > td:nth-child(5) {
+	width: 80px;
+}
+#goodsRegisteredTrArea > th:nth-child(6),
+.goodsChoice_registeredTdArea .table-rows > tbody > tr > td:nth-child(6) {
+	width: 75px;
+}
+#goodsRegisteredTrArea > th:nth-child(7),
+.goodsChoice_registeredTdArea .table-rows > tbody > tr > td:nth-child(7) {
+	width: 60px;
+}
+.goodsChoice_registeredTdArea .table-rows > tbody > tr > td:nth-child(8) {
+	width: 62px;
+}
+#goodsRegisteredTrArea > th:nth-child(8) {
+	width: 78px;
+}

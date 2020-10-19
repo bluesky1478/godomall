@@ -1,0 +1,421 @@
+@charset "utf-8";
+
+/***********************************************
+ ** 폼 엘리먼트
+ ***********************************************/
+/* Content */
+
+/* Override Bootstrap End */
+
+@media (min-width: 992px) {
+    .modal-wide-sm {
+        width: 750px;
+    }
+
+    .modal-wide-lg {
+        width: 1000px;
+    }
+
+    .modal-wide-xlg {
+        width: 1400px;
+    }
+}
+
+
+/* Button Size */
+.button.large {
+    height: 29px;
+    background-position: left -30px;
+}
+
+.button.xLarge {
+    height: 35px;
+    background-position: left -65px;
+}
+
+.button.small {
+    height: 18px;
+    background-position: left -107px;
+}
+
+.button a,
+.button button,
+.button input {
+    height: 23px;
+    padding: 0 10px 0 8px;
+    font-size: 12px;
+    line-height: 23px;
+    background-position: right top;
+}
+
+.button.large a,
+.button.large button,
+.button.large input {
+    height: 30px;
+    padding: 0 10px 0 8px;
+    font-size: 16px;
+    line-height: 29px;
+    background-position: right -30px;
+}
+
+.button.xLarge a,
+.button.xLarge button,
+.button.xLarge input {
+    height: 35px;
+    padding: 0 10px 0 8px;
+    font-size: 20px;
+    line-height: 35px;
+    background-position: right -65px;
+}
+
+.button.small a,
+.button.small button,
+.button.small input {
+    height: 18px;
+    padding: 0 6px 0 4px;
+    font-size: 11px;
+    font-family: '돋움', 'Dotum';
+    letter-spacing: -1px;
+    line-height: 18px;
+    background-position: right -107px;
+}
+
+/* Button Text Color */
+.button *:hover,
+.button *:active,
+.button *:focus {
+    color: #669900;
+}
+
+.button.green,
+.button.green a,
+.button.green button,
+.button.green input {
+    background-image: url(../../../../data/commonimg/bg_buttonGreen.gif);
+    color: #FFFFFF;
+}
+
+.button.green *:hover,
+.button.green *:active,
+.button.green *:focus {
+    color: #FFFF00;
+}
+
+.button.black,
+.button.black a,
+.button.black button,
+.button.black input {
+    background-image: url(../../../../data/commonimg/bg_buttonBlack.gif);
+    color: #FFFFFF;
+}
+
+.button.black *:hover,
+.button.black *:active,
+.button.black *:focus {
+    color: #FFFF00;
+}
+
+.button.red,
+.button.red a,
+.button.red button,
+.button.red input {
+    background-image: url(../../../../data/commonimg/bg_buttonRed.gif);
+    color: #FFFFFF;
+}
+
+.button.red *:hover,
+.button.red *:active,
+.button.red *:focus {
+    color: #FFFF00;
+}
+
+.button.blue,
+.button.blue a,
+.button.blue button,
+.button.blue input {
+    background-image: url(../../../../data/commonimg/bg_buttonBlue.gif);
+    color: #FFFFFF;
+}
+
+.button.blue *:hover,
+.button.blue *:active,
+.button.blue *:focus {
+    color: #FFFF00;
+}
+
+.button.gray,
+.button.gray a,
+.button.gray button,
+.button.gray input {
+    background-image: url(../../../../data/commonimg/bg_buttonGray.gif);
+    color: #FFFFFF;
+}
+
+.button.gray *:hover,
+.button.gray *:active,
+.button.gray *:focus {
+    color: #FFFF00;
+}
+
+/* Button Text Strong */
+.button.strong * {
+    font-weight: bold !important;
+}
+
+/* Tip */
+#tooltip {
+    position: absolute;
+    opacity: 0.8;
+    border: none;
+    height: auto;
+    z-index: 100;
+}
+
+/* Tip.shadow */
+.tip {
+    display: inline-block;
+    margin: 0;
+    width: 14px;
+    height: 14px;
+    vertical-align: middle;
+    background: url('../img/icon_tooltip_off.png') no-repeat;
+    cursor: pointer;
+}
+
+.tip span {
+    display: none;
+    visibility: hidden;
+}
+
+/* Form 체크 메시지 */
+.input_error_msg {
+    display: none;
+    color: #FE5400;
+    padding-left: 15px;
+    font-size: 11px;
+    font-family: '돋움', 'Dotum';
+    background: url('../image/ico_heed.gif') no-repeat 0 50%;
+    white-space: nowrap;
+}
+
+/* description */
+.description {
+    padding: 8px 13px;
+    margin: 0 5px 18px 5px;
+    background: #F7F7F7;
+    color: #777777;
+    border: #C6C6C6 3px solid;
+    line-height: 18px;
+    letter-spacing: -1px;
+}
+
+.description .title {
+    color: #0079B6;
+    font-weight: bold;
+}
+
+/* 이미지뷰어 */
+#image_viewer {
+    height: 100%;
+}
+
+#image_viewer #imageArea {
+    overflow: hidden;
+    width: 0px;
+    height: 0px;
+    text-align: center;
+}
+
+#image_viewer #toolbar {
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    width: 100%;
+    height: 37px;
+    padding-top: 13px;
+    margin-top: -50px;
+    background-color: #CCCCCC;
+}
+
+#image_viewer #toolbar #zoom {
+    display: inline-block;
+    width: 40px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* 박스 스크롤 */
+.boxScroll {
+    width: 98%;
+    height: 200px;
+    overflow: auto;
+    background: #FFFFFF;
+    color: #585858;
+    border: 1px #DDDDDD solid;
+    overflow-x: hidden;
+    text-align: left;
+}
+
+.boxScroll_small {
+    width: 98%;
+    height: 102px;
+    overflow: auto;
+    background: #FFFFFF;
+    color: #585858;
+    border: 1px #DDDDDD solid;
+    overflow-x: hidden;
+    text-align: left;
+}
+
+/* 프로세스 처리창 */
+.process {
+    border: solid 3px #676767;
+    background: #FFFFFF;
+    padding: 10px;
+}
+
+.process .report {
+    width: 520px;
+    margin: 0px;
+}
+
+.process .report h1 {
+    color: #FFFFFF;
+    font: 12px tahoma;
+    font-weight: bold;
+    background-color: #298CC7;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+
+.process .report table th {
+    width: 99px;
+    color: #004477;
+    font-weight: bold;
+    border-right: solid 1px #DDDDDD;
+    vertical-align: top;
+    padding-top: 5px;
+}
+
+.process .report table td {
+    width: 450px;
+}
+
+.process .report .briefing {
+    height: 150px;
+    overflow-y: scroll;
+}
+
+.process .report .briefing ul {
+    margin: 0px 0px 0px 20px;
+    padding: 0px;
+}
+
+.process .report .briefing ul li {
+    list-style: disc;
+}
+
+.process .report .briefing ul .sub {
+    margin: 5px 0;
+}
+
+.process .report .briefing ul ol.sub {
+    margin-left: 15px;
+}
+
+.process .report .briefing ul ol li {
+    list-style: circle;
+}
+
+.process .report h2 {
+    font: 9pt tahoma;
+    margin: 15px 0px 0px 15px;
+}
+
+.process .report .report_line {
+    border: solid 1px #535353;
+    height: 20px;
+    margin: 0px 15px 10px 15px;
+    background-color: #F7F7F7;
+}
+
+.process .report .report_line .report_white {
+    margin: 1px;
+    height: 18px;
+}
+
+.process .report .report_line .report_white .report_graph {
+    margin: 0px;
+    background-color: #7CBADD;
+    height: 100%;
+    width: 100%;
+}
+
+.process .report .report p {
+    border-top: dashed 1px #CACACA;
+    margin: 0px;
+}
+
+.process .report .report_btn {
+    display: none;
+    text-align: center;
+    margin-top: 15px;
+}
+
+/* CRM LAYER */
+.crmLayer {
+    position: absolute;
+    background-color: #FFFFFF;
+    border: solid 3px #AAAAAA;
+    display: none;
+}
+
+
+.crmLayer li {
+    font-size: 11px;
+    font-family: "돋움", Dotum;
+    border-bottom: solid 1px #BBBBBB;
+    padding: 3px 5px 3px 12px;
+    cursor: pointer;
+}
+
+/* 미확인 입금자 관리 */
+#bannerSkinType_select td{
+    text-align: center;
+    padding: 5px;
+}
+#designHtml {
+   width:100%;
+   height:200px;
+}
+#bannerSkinType_select .form-inline div{
+    padding:5px;
+}
+#designSkinType_select .form-inline div{
+    padding:5px;
+}
+#designSkinType_select .form-inline div img{
+    width:180px;
+    height:150px;
+}
+#mobileBannerSkinType_select td {
+    text-align: center;
+    padding: 5px;
+}
+#mobileDesignHtml {
+    width: 100%;
+    height: 200px;
+}
+#mobileBannerSkinType_select .form-inline div {
+    padding: 5px;
+}
+#mobileDesignSkinType_select .form-inline div {
+    padding: 5px;
+}
+#mobileDesignSkinType_select .form-inline div img {
+    width: 180px;
+    border: 1px solid #aaa;
+}
+#mobileBannerSkinType_select table img {
+    width:192px; margin:0 auto;
+}

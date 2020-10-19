@@ -1,0 +1,30 @@
+{
+  "name": "component-tree",
+  "version": "1.2.0",
+  "authors": [
+    "NHN ent. FE dev team.<dl_javascript@nhnent.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "src",
+    "server",
+    "data.js",
+    "Gruntfile.js",
+    "conf.json",
+    "karma.conf.js",
+    "package.json",
+    ".gitignore",
+    "samples"
+  ],
+  "dependencies": {
+    "tui-code-snippet": "~1.0.4"
+  },
+  "devDependencies": {
+    "jquery": "1.8.3"
+  }
+}

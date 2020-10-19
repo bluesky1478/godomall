@@ -1,0 +1,203 @@
+/* 파일트리 */
+div.file_tree {height:100%;padding-top: 30px;}
+div.file_tree .menu {border-left-width:0; border-right-width:0;}
+div.file_tree .tree {border-width:0; padding-bottom:30px; height:90%;}
+div.tree-default-context {z-index:5}
+
+/* Center content */
+div.lay_body {padding:0 !important; overflow:hidden !important;}
+
+/* Header content */
+div.lay_head {min-width:1092px;}
+div.lay_head .titlebar {height:42px; background:url('../img/design/bg_tab_title.gif');}
+div.lay_head .titlebar .curLocation {float:right; padding:5px 10px 0 0; font-family:'돋움','Dotum'; font-size:11px; color:#666; font-weight:normal;}
+div.lay_head .titlebar .curLocation .ui-icon {width:12px; height:11px;}
+div.lay_head .titlebar .curLocation .ui-icon-carat-1-e {background-position:-31px -3px}
+
+div.lay_head .titlebar .file_path {color:#6699ff;}
+div.lay_head .titlebar .quick {letter-spacing:-4px; vertical-align:top; display:inline-block; margin-top:7px;}
+
+/* 해더와 풋터 설명 박스 */
+div.design_default {margin-top:50px;}
+div.design_default .boxForm {border:10px solid #eeeeee; height:350px; padding:10px;}
+div.design_default .boxForm ul {line-height:20px;}
+div.design_default .boxForm .infoimg {margin-top:20px; float:left;}
+div.design_default .boxForm .btnimg {margin-top:20px;}
+div.design_default .boxForm div {margin-top:37px;}
+
+.ui-widget {font-size:12px;}
+.ui-widget input {font-family:'돋움','Dotum'; font-size:12px;}
+
+/* HTML 편집  */
+#slt_history {background: #fff;height: 23px;}
+
+/* HTML 편집 > 파일트리 */
+#source_tree {float:left; width:220px;}
+
+/* HTML 편집 > 이미지 관리 > 이미지 파일트리 */
+#image_tree {float:left; width:220px; height:222px}
+#image_tree .tree {height:186px}
+#image_tree .tree ul {font-family:'verdana'; color:red;}
+
+/* HTML 편집 > 이미지관리 > 이미지 파일 목록 */
+#filearea {float:none; margin-left:225px; width:auto}
+#filelist {
+	width:auto;
+	height:220px;
+	list-style:none;
+	border:1px solid #898C95;
+	font-family:'verdana';
+	font-size:11px;
+	background-color:#ffffff;
+}
+#filelist .gallery_img {border:1px solid #ffffff;}
+#filelist .gallery_img_over {border:1px solid #FFCECE;}
+#filelist .gallery_img_select {border:1px solid #ff0000;}
+
+/* HTML 편집 > 이미지관리 > 이미지 업로드 폼 */
+#image_tree .swfupload {margin-top:3px; margin-left:3px;}
+#upload_box {
+	position:absolute; left:200px; top:10px; width:410px; height:200px;
+	background-color:#eeeeee; border:1px solid #898C95; z-index:2; display:none;
+	padding:5px
+}
+div.upload_status {width:400px; font-family:'돋움','Dotum'; font-size:11px; background-color:#eeeeee; padding:5px; color:#35353535}
+div.upload_status div.btn_upload_close {float:right; padding:3px; width:30px; cursor:pointer;}
+div.upload_status div.btn_upload_start {margin:0 auto; display:none; padding-top:10px; width:70px; cursor:pointer;}
+div.upload_status div.resizearea {width:320px; float:left}
+div.upload_status div.upload_queue_list {overflow:auto; height:150px; border:solid 1px #000000; float:none; clear:both}
+div.upload_status table{border:0px solid #000000;}
+div.upload_status table td {border:1px solid #000000; padding:2px 3px; color:#353535; font-family:'돋움','Dotum'; font-size:11px; letter-spacing:-1px}
+div.upload_status table td.upload_name {width:130px}
+div.upload_status table td.select_name {width:130px}
+div.upload_status table td.overwrite {width:120px}
+div.upload_status table thead td {height:20px}
+div.upload_status table tbody td {height:20px}
+div.upload_status div.pb_back {display:block; float:left; width:130px; height:20px; background-color:#3399FF; padding:0px}
+div.upload_status div.pb {background-image:url('/worktemp/whitebar.gif'); background-position:0px 0px; background-repeat:no-repeat; padding:0px; height:100%; width:100%}
+
+/* HTML 편집 > 이미지관리 > 이미지 삭제 폼 */
+#delete_box {width:300px; height:30px; padding:10px; display:none}
+#delete_box .text {float:left; width:100px;}
+#delete_box .btn_yes {float:left; width:40px; cursor:pointer;}
+#delete_box .btn_no {float:left; width:40px; cursor:pointer;}
+
+/* HTML 편집 > 이미지관리 > 이미지명 변경 폼 */
+#rename_box {width:300px; height:30px; padding:10px; display:none}
+#rename_box .input {float:left; width:100px; display:block;}
+#rename_box .btn_save {float:left; width:40px; cursor:pointer;}
+#rename_box .btn_no {float:left; width:40px; cursor:pointer;}
+
+/* HTML 편집 > 이미지관리 > 갤러리 */
+.imageGallery {position:relative;}
+.imageGallery .pageSort {display:none; position:absolute; left:100%; top:0px; margin-left:-130px; width:90px; height:120px; background:#eeeeee; border:1px solid #cccccc; z-index:10; border-bottom:none}
+.imageGallery .pageSort div{height:19px; border-bottom:1px solid #cccccc; margin:0px; font-family:'돋움','Dotum'; font-size:11px; line-height:11px; cursor:pointer}
+
+.imageGallery .liMenu {position:absolute; left:0px; top:0px; height:25px; background-color:#cccccc; z-index:1;}
+.imageGallery .liMenuView {z-index:2; position:absolute; left:100%; margin-left:-60px; top:2px; width:16px; height:16px; background:url('../../../module/script/extern/jquery/jstree/themes/summer/icons.gif') no-repeat left -179px; cursor:pointer}
+.imageGallery .liMenuRename {z-index:2; position:absolute; left:100%; margin-left:-40px; top:2px; width:16px; height:16px; background:url('../../../module/script/extern/jquery/jstree/themes/summer/icons.gif') no-repeat -16px top; cursor:pointer}
+.imageGallery .liMenuDelete {z-index:2; position:absolute; left:100%; margin-left:-20px; top:2px; width:16px; height:16px; background:url('../../../module/script/extern/jquery/jstree/themes/summer/icons.gif') no-repeat left -33px; cursor:pointer}
+.imageGallery .liMenuCopy {z-index:2; position:absolute; left:100%; margin-left:-110px; top:0px; width:50px; height:20px; cursor:pointer}
+
+/* 파일생성 > 새레이아웃폼 */
+.create_layout_form {margin-top:6px;}
+.create_layout_form li {margin-top:3px;}
+
+/* 디자인 페이지 맵 폼 */
+.design_page_map {height: 350px;}
+.design_page_map img { vertical-align:middle }
+.design_page_map p { margin:0 0 10px 0;  }
+.design_page_map .ready {border: solid 3px #eee;text-align: center}
+.design_page_map .editing { border:solid 3px #777; }
+.design-title {color: #333;font-size: 13px;font-weight: bold}
+
+/* 레이어 배치 */
+.design_page_map #frame_main { text-align:left float:left; width:100%; padding-right: 30px}
+.design_page_map #frame_main #frame_side_body { float:left; width:80%; }
+.design_page_map #frame_main #frame_side { float:left; width:43%; }
+.design_page_map #frame_main #frame_body { float:left; width:56%; }
+* html .design_page_map #frame_main #frame_body { width:100%; float:none; }
+.design_page_map #frame_main #frame_footer { clear:both; }
+.design_page_map #frame_main .scroll-left { float:left; width:10%; }
+.design_page_map #frame_main .scroll-left div {height: 95px; margin: 10px 10px 10px 0px;padding:20px 0px 25px 0px}
+.design_page_map #frame_main .scroll-right { float:right; width:10%;  }
+.design_page_map #frame_main .scroll-right div {height: 95px; margin: 10px 0px 10px 0px;padding:20px 0px 25px 0px}
+* html .design_page_map #frame_scroll { float:none; width:100%; }
+
+/* 레이어 세부설정 */
+
+.design_page_map #frame_main #frame_outHeader {height:30px;width: 350px;background: #eee;margin: auto;}
+.design_page_map #frame_main #frame_outHeader div { padding-top:5px; }
+.design_page_map #frame_main #frame_header div,
+.design_page_map #frame_main #frame_footer div { height:65px; }
+.design_page_map #frame_main #frame_header div div,
+.design_page_map #frame_main #frame_footer div div {padding-top: 15px;padding-bottom:15px;text-align: center;}
+.design_page_map #frame_main #frame_side div,
+.design_page_map #frame_main #frame_body div { margin: 10px 10px 10px 0px; height:95px; padding-left: 15px }
+* html .design_page_map #frame_main #frame_side div,
+* html .design_page_map #frame_main #frame_body div { height:72px;padding: 15px}
+.design_page_map #frame_main #frame_body div { margin-left:0px; }
+* html .design_page_map #frame_main #frame_body div { margin-left:0; }
+.design_page_map #frame_main #frame_side div div,
+.design_page_map #frame_main #frame_body div div { height:0; margin:0; padding:0;}
+.design_page_map #frame_main #frame_side div div { padding-top:15px;}
+.design_page_map #frame_main #frame_body div div { padding-top:25px;}
+.design_page_map #frame_main #frame_outFooter { height:30px; background:#eee;width:350px;margin:auto }
+.design_page_map #frame_main #frame_outFooter div {padding-top: 5px;}
+.design_page_map #frame_scroll div { text-align:center; margin-left:3px; padding:15px 0 15px 0; }
+* html .design_page_map #frame_scroll div { margin-left:0; }
+.design-font-eng {font-family: Malgun Gothic,"맑은 고딕";	color: #666;font-size: 12px;}
+.design_page_map #frame_main .btn-link {text-decoration: underline;}
+.design_page_map #frame_main select {margin: 0 10px}
+
+/* 레이어 배치 - 모바일 */
+.design_page_map #frame_main_mobile { text-align:left; width:100%; padding-right: 30px}
+.design_page_map #frame_main_mobile #frame_body { }
+* html .design_page_map #frame_main_mobile #frame_body { width:100%; }
+.design_page_map #frame_main_mobile #frame_footer { }
+
+/* 레이어 세부설정 - 모바일 */
+
+.design_page_map #frame_main_mobile #frame_outHeader {height:30px;width: 350px;background: #eee;margin: auto;}
+.design_page_map #frame_main_mobile #frame_outHeader div { padding-top:5px; }
+.design_page_map #frame_main_mobile #frame_header div,
+.design_page_map #frame_main_mobile #frame_footer div { height:65px; }
+.design_page_map #frame_main_mobile #frame_header div div,
+.design_page_map #frame_main_mobile #frame_footer div div {padding-top: 15px;padding-bottom:15px;text-align: center;}
+.design_page_map #frame_main_mobile #frame_body div { margin: 10px 0 10px 0; height:90px; }
+* html .design_page_map #frame_main_mobile #frame_body div { height:72px; }
+.design_page_map #frame_main_mobile #frame_body div { margin-left:0; }
+* html .design_page_map #frame_main_mobile #frame_body div { margin-left:0; }
+.design_page_map #frame_main_mobile #frame_body div div { height:0; margin:0; padding:0;}
+
+.design_page_map #frame_main_mobile #frame_body div div { padding-top:20px;}
+.design_page_map #frame_main_mobile #frame_outFooter { height:30px; background:#eee;width:350px;margin:auto }
+.design_page_map #frame_main_mobile #frame_outFooter div {padding-top: 5px;}
+.design_page_map #frame_main_mobile .btn-link {text-decoration: underline;}
+.design_page_map #frame_main_mobile select {margin: 0 10px}
+.sub-sector.banner-float {
+	margin:0 0 30px;
+}
+
+/* 디자인 치환코드 */
+#design-area {float:left; width:100%;}
+#design-code {display:none; float:right; background:#f6f6f6; width:300px; height:100%; margin-top:-10px; border-left:2px solid #888; z-index:100;}
+#design-code.affix {top:69px; right:25px; height:100% !important;}
+#design-code #design-code-title {position:relative; height:54px; border-bottom:1px solid #888; line-height:53px; font-size:18px; color:#222; font-weight:bold;}
+#design-code #design-code-title .design-code-close {position:absolute; top:19px; right:15px; background:url('../img/btn_layer_close.png') no-repeat; background-size:contain; display:block; width:16px; height:16px; opacity:1; cursor:pointer;}
+#design-code #design-code-inner-area {width:100%; height:auto; overflow-y:scroll;}
+#design-code #design-code-inner-area #design-code-inner {width:251px; margin:0 auto 15px; padding-bottom:15px;}
+
+#design-code .design-code-tbl {width:100%; background:#fff; border-spacing:0px; border-style:none; margin-bottom:15px; padding:0;}
+#design-code .design-code-tbl th {padding:10px 42px 10px 15px; background:#888 url('../img/design/btn_icon_codeclose.png') center right 15px no-repeat; border:1px solid #888; font-size:13px; color:#fff; cursor: pointer;}
+#design-code .design-code-tbl th.on {background-image:url('../img/design/btn_icon_codeopen.png')}
+#design-code .design-code-tbl td {position:relative; padding:15px 15px 18px 15px; border:1px solid #e6e6e6; word-break:break-all; }
+#design-code .design-code-tbl td .btn {padding: 2px 7px;}
+#design-code .design-code-tbl td .design-code-info {color:#444;}
+#design-code .design-code-tbl td .design-code-data {font-size:11px; color:#888; padding-top:7px; line-height:180%;}
+#design-code .design-code-tbl td .design-code-copy {position:absolute; top:15px; right:15px; display:none;}
+.design-code-btn {position:absolute; bottom:3px; right:0; cursor:pointer;}
+.design-code-key-btn {position:absolute;margin-right:120px; bottom:3px; right:0; cursor:pointer;}
+.layer-design-code-key-btn {font-weight:normal;font-size:12px;line-height:1.3;display:none;position:absolute;border:1px solid #ccc;right:120px;top:28px;padding:10px; background-color: #ffffff;z-index:9999}
+.design-code-btn button.code-close {}
+.design-mall-info {display:inline-block; background:#f6f6f6; border:1px solid #c3c3c3; padding:7px 9px; margin-right:15px;}

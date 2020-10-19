@@ -1,0 +1,145 @@
+img {
+    border: 0px;
+}
+
+.paycoLayout {
+    width: 1000px;
+}
+
+.payco_BgColorGray2 {
+    background-color: #eaeaea;
+}
+
+.payco_BgColorWhite {
+    background-color: #ffffff;
+}
+.payco_BgColorWhite .msg {
+	margin:10px 0 0;
+}
+
+.payco_marginTop {
+    margin-top: 50px;
+}
+
+.payco_guide {
+    font-family: Dotum;
+    color: #627dce;
+    font-size: 11px;
+    margin-top: 5px;
+}
+
+.payco_borderZ {
+    border: 0px;
+}
+
+.payco_ButtonTypeMargin {
+    margin:10px 0;
+}
+
+.payco_checkoutButton {
+    margin: 25px 0px 0px 20px;
+}
+
+.payco_ValignBttom {
+    vertical-align: bottom;
+}
+
+.paycoInfo {
+    width: 1000px;
+    margin: 0px 0px 30px 0px;
+    border: 3px #dce1e1 solid !important;
+    padding: 5px;
+}
+
+.paycoInfo .sub_paycoInfo {
+	margin:0;
+    background-color: #989898;
+}
+
+.paycoInfo .sub_paycoInfo tr {
+    background-color: #ffffff;
+    height: 50px;
+}
+
+.paycoInfo .sub_paycoInfo tr .firstTd {
+    background-color: #989898;
+    text-align: center;
+    color: #ffffff;
+}
+
+.paycoInfo .sub_paycoInfo tr .lastTd {
+    padding-left: 5px;
+}
+
+.payco_IDTextBox {
+    margin: 3px 0px 3px 0px;
+    width: 300px;
+    height: 28px;
+}
+
+.payco_textInputLayout {
+    background-color: #ffffff;
+}
+
+.payco_textInputLayout tr {
+    background-color: #ffffff;
+    height: 40px;
+}
+
+.payco_textInputLayout tr .firstTd {
+    background-color: #eaeaea;
+    width: 120px;
+}
+
+.paycoTab {
+    background-color: #ffffff;
+    width: 100%;
+    border: 1px #888 solid;
+    border-width: 0px 0px 1px 1px;
+    height: 46px;
+    color: #222;
+    font-size: 14px;
+    margin: 50px 0px 20px 0px;
+}
+
+.paycoTab div {
+    float: left;
+    width: 210px;
+    height: 46px;
+    margin: 0 auto;
+    line-height: 46px;
+    border: 1px #888 solid;
+    border-width: 1px 1px 0px 0px;
+    text-align: center;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.paycoInputRadio1 {
+    border: 0px;
+    vertical-align: top;
+    margin-top: 35px;
+}
+
+.paycoInputRadio2 {
+    border: 0px;
+    vertical-align: top;
+    margin-top: 115px;
+}
+
+.payco_checkoutDetailSpace {
+    margin-right: 20px;
+}
+
+.payco_deisignLink {
+    text-decoration: underline;
+    color: #f01d11;
+}
+
+.payco_validationMsg {
+    margin-left: 5px;
+    font-family: Dotum;
+    color: #627dce;
+    font-size: 11px;
+    vertical-align: middle;
+}

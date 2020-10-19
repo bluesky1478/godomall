@@ -1,0 +1,268 @@
+.tree-title {
+    font-weight: bolder;
+    padding: 12px 0 6px;
+}
+
+.file-wrap,
+.tree-wrap {
+    width: 100%;
+    height: 520px;
+    overflow: auto;
+}
+
+.source-copy .file-wrap,
+.source-copy .tree-wrap {
+    height: 435px;
+}
+
+.file-wrap ul {
+    margin-bottom: 0;
+}
+
+.file-wrap ul li {
+    clear: both;
+    overflow: hidden;
+    padding: 7px 10px;
+    border-bottom: 1px solid #EFEFEF;
+    background-color: inherit;
+}
+
+.file-wrap li:hover {
+    background-color: #FFFDEF;
+}
+
+.file-wrap ul li .pull-left {
+    padding-top: 3px;
+}
+
+.file-wrap ul li .pull-left small {
+    color: #D7D7D7;
+}
+
+.file-wrap .border-none {
+    border: 0;
+}
+
+.file-wrap .no-data {
+    line-height: 1.7em !important;
+    padding: 201px 0;
+}
+
+.tree-box {
+    border: 1px solid #C4C4C4;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.tree-wrap {
+    float: left;
+    font-size: 11px;
+    position: relative;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-right: 1px solid #C4C4C4;
+}
+
+.tree-wrap ul li {
+    list-style: none;
+    padding: 3px 0;
+    margin: 0;
+}
+
+.tree-wrap ul li em {
+    font-weight: bold;
+    font-style: normal
+}
+
+.tree-wrap ul li.tui-tree-leaf {
+    padding-left: 17px;
+}
+
+.tree-wrap ul {
+    margin: 0;
+    padding-left: 15px;
+}
+
+.tree-wrap button {
+    background: url('../script/tui.component.tree/samples/sp_floor.png') no-repeat left;
+    width: 13px;
+    height: 13px;
+    font-size: 0px;
+    padding: 0;
+    color: #000000;
+    vertical-align: middle;
+    margin-right: 5px;
+    border: 0;
+}
+
+.tree-wrap .tui-tree-opened button {
+    background-position: -107px 0;
+}
+
+.tree-wrap .tui-tree-closed button {
+    background-position: -92px 0;
+}
+
+/*.tree-wrap .tui-tree-closed > .tui-tree-subtree {display: none;}*/
+/*.tree-wrap .tui-tree-opened > .tui-tree-subtree {display: block;}*/
+.tui-tree-node .tui-tree-text {
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 1px;
+}
+
+.tui-tree-node .fa-folder {
+    padding-left: 22px;
+    background: url(../img/design/icon_ftp_folder.gif) no-repeat left 50%;
+}
+
+.tui-tree-node .fa-file {
+    padding-left: 22px;
+    background: url(../img/design/icon_ftp_file.gif) no-repeat left 50%;
+}
+
+.tui-tree-selected > .tui-tree-text {
+    background-color: #797979;
+    color: #FFF;
+}
+
+input {
+    border: 2px dotted;
+    outline: none;
+}
+
+.content > .row {
+    margin-right: -28px;
+}
+
+.source-copy .content > .row {
+    margin-right: -15px;
+}
+
+.content .col-xs-4,
+.content .col-xs-8 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.devs-intro{
+    padding: 28px;
+}
+.page-title{
+    font-size: 20px;
+    color: #222;
+    margin-bottom: 10px;
+    margin-top: 0;
+    font-weight: bold;
+}
+.page-p{
+    font-size: 12px;
+    line-height: 20px;
+    color: #333;
+}
+
+/** 20160609 윤태건 개발소스관리안내 */
+.devs-items{
+    overflow: hidden;
+    margin: 25px 20px;
+    width: 990px;
+    color: #999999;
+}
+.devs-item+.devs-item:after{
+    position: absolute;
+    top:80px;
+    left: -30px;
+    background:url(../img/development/devs-arr.png) 0 0 no-repeat;
+    width: 14px;
+    height: 28px;
+    content: '';
+
+}
+.devs-item .devs-img{
+    margin: 0 0 15px;
+}
+.devs-item{
+    position: relative;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    width: 100%;
+    text-align: left;
+    vertical-align: top;
+    margin: 2px 0;
+}
+.devs-p1{
+    font-size: 12px;
+    line-height: 20px;
+}
+.devs-p1+.devs-btn{
+    margin: 10px 0 0;
+}
+.devs-item a{
+    color: #999999;
+    text-decoration: underline;
+}
+.devs-btn{
+    display: inline-block;
+    padding: 2px 5px 3px;
+    border: 1px solid #ccc;
+    color: #444;
+    font-size: 11px;
+}
+.devs-btn:hover{
+    text-decoration: none;
+}
+.devs-box{
+    border: 1px solid #ccc;
+    width: 798px;
+}
+.devs-box-head{
+    border-bottom: 1px solid #ccc;
+    background: #f8f8f8;
+    padding: 10px 20px;
+}
+.devs-box-title{
+    font-size: 13px;
+    font-weight: bold;
+    color: #333;
+    margin: 0;
+}
+.devs-box-body{
+    padding: 20px;
+}
+.devs-box-body ul{
+    margin: 0;
+    padding: 0;
+}
+.devs-box-body li+li{
+    margin: 15px 0 0;
+}
+.devs-box-body li{
+    position: relative;
+    list-style:none;
+}
+.devs-box-a{
+    display: inline-block;
+    font-size: 11px;
+    color: #fff;
+    padding: 2px 0 3px;
+    width: 130px;
+    text-align: center;
+    border: 1px solid #aaa;
+    background: #bcbcbc;
+    font-weight: bold;
+    position: absolute;
+    top: 0;
+    left: 300px;
+}
+.devs-box-a:hover{
+    color: #fff;
+    text-decoration: none;
+}
+
+.content-footer {
+    border-top: 1px solid #CFCFCF;
+    margin: 0 -25px;
+    padding: 13px 10px 10px;
+    font-weight: bolder;
+}
